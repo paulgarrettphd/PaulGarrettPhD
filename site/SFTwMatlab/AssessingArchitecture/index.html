@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  
+  <title>Assessing Architecture - Paul Garrett PhD</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Assessing Architecture";
+    var mkdocs_page_input_path = "SFTwMatlab\\AssessingArchitecture.md";
+    var mkdocs_page_url = "/SFTwMatlab/AssessingArchitecture/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../introduction/" class="icon icon-home"> Paul Garrett PhD</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../introduction/">Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../SystemsFactorialTechnology/">Systems Factorial Technology (SFT)</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">SFT With Matlab Package</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../SimulatingData/">Simulating Data</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../SimulatingArchitectures/">Simulating Architectures</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Assessing Architecture</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#selective-influence">Selective Influence</a></li>
+    
+
+    <li class="toctree-l3"><a href="#mean-interaction-contrast-mic">Mean Interaction Contrast (MIC)</a></li>
+    
+
+    <li class="toctree-l3"><a href="#survivor-interaction-contrast-sic">Survivor Interaction Contrast (SIC)</a></li>
+    
+
+    <li class="toctree-l3"><a href="#d-statistic">D` Statistic</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#d-hat-vs-mic-significance-testing">D-Hat vs MIC Significance Testing</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../AssessingCapacity/">Assessing Capacity</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../systemsofnumericalcognition/">Systems of Numerical Cognition</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../ErrorsInSFT/">Assessing System Errors</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../breakingtherules/">Breaking the Rules</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../neuralcorrelatesofcognition/">The Neural Correlates of Cognition</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../support/">Contact and Support</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Help</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../References/">References</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../introduction/">Paul Garrett PhD</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../introduction/">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>SFT With Matlab Package &raquo;</li>
+        
+      
+    
+    <li>Assessing Architecture</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://phdpaulgarrett@bitbucket.org/phdpaulgarrett/phd.git/src/default/docs/SFTwMatlab\AssessingArchitecture.md"
+          class="icon icon-bitbucket"
+        > Edit on BitBucket</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><center> <img alt="alt text" src="../img/sysofcog.png" /> </center></p>
+<h1 id="selective-influence">Selective Influence</h1>
+<h1 id="mean-interaction-contrast-mic">Mean Interaction Contrast (MIC)</h1>
+<h1 id="survivor-interaction-contrast-sic">Survivor Interaction Contrast (SIC)</h1>
+<h1 id="d-statistic">D` Statistic</h1>
+<p>The  D statistic is a non-parametric test for assessing the empirical SIC(t)'s departure from zero (Houpt &amp; Townsend, 2010). The D statistic is calculated for both the maximum and minimum points of the empirical SIC(t), giving a D+ and D- statistic. </p>
+<p>The D statistic utilises comparison of the SIC(t) to the maximum and minimum value of a Brownian Bridge, a stochastic process occurring over time with pdf drawn from the conditional probability of a Wiener process with start (t=0) and end points (t=T) anchored at zero and uncertainty greatest in the middle of the distribution. As such, interpretation of the D statistic should be understood as D+ denoting the largest positive value of a Brownian Bridge and D- the magnitude of the smallest value. </p>
+<p>Given the D statistic's calculation from a Brownian Bridge, a null hypothesis test can be ascertained with the null assuming the maximum SIC(t) positive and negative inflection resulting from the uncertainty of the underlying Brownian Bridge. </p>
+<p>The D statistic should be interpreted in conjunction with the MIC, as the presence of a D statistic alone is only weak evidence against the null (Houpt &amp; Townsend, 2010).</p>
+<h2 id="d-hat-vs-mic-significance-testing">D-Hat vs MIC Significance Testing</h2>
+<hr />
+<p><font size=5 color=dodgerblue><b> Parallel Exhaustive </font></b>
+<center> <img alt="alt text" src="../img/Architectures_SI_PE.tif" /> </center>
+<footer><font size=2> Figure </footer></font> </p>
+<p><font size=4 color=dodgerblue><b> Theoretical Expectations </font></b></p>
+<table>
+<thead>
+<tr>
+<th align="left">Measure</th>
+<th align="center">Expect Significance</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">MIC (mean)</td>
+<td align="center"></td>
+<td align="left">MIC should be negative</td>
+</tr>
+<tr>
+<td align="left">MIC Interaction</td>
+<td align="center">True</td>
+<td align="left">MIC Interaction should be significant. Hallmark of Parallel Processing</td>
+</tr>
+<tr>
+<td align="left">D+</td>
+<td align="center">False</td>
+<td align="left">No significant positive deviation should be observed. See above SIC figure.</td>
+</tr>
+<tr>
+<td align="left">D-</td>
+<td align="center">True</td>
+<td align="left">A significant negative deviation should be observed.</td>
+</tr>
+</tbody>
+</table>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Dhat vs MIC </font></b></p>
+<p><center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Exhaustive_Dpval_vs_MICpval_50_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Exhaustive_Dpval_vs_MICpval_100_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Exhaustive_Dpval_vs_MICpval_200_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Exhaustive_Dpval_vs_MICpval_1000_Trials.jpg" /> </center></p>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Corresponding SICs </font></b></p>
+<p><center> <img alt="alt text" src="../img/SICdensity/Parallel_Exhaustive_SIC_50_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Parallel_Exhaustive_SIC_100_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Parallel_Exhaustive_SIC_200_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Parallel_Exhaustive_SIC_1000_Trials.tif" /> </center></p>
+<hr />
+<p><font size=5 color=dodgerblue><b> Parallel Self Terminating </font></b>
+<center> <img alt="alt text" src="../img/Architectures_SI_PST.tif" /> </center>
+<footer><font size=2> Figure </footer></font> </p>
+<p><font size=4 color=dodgerblue><b> Theoretical Expectations </font></b></p>
+<table>
+<thead>
+<tr>
+<th align="left">Measure</th>
+<th align="center">Expect Significance</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">MIC (mean)</td>
+<td align="center"></td>
+<td align="left">MIC should be positive</td>
+</tr>
+<tr>
+<td align="left">MIC Interaction</td>
+<td align="center">True</td>
+<td align="left">MIC Interaction should be significant. Hallmark of Parallel Processing</td>
+</tr>
+<tr>
+<td align="left">D+</td>
+<td align="center">True</td>
+<td align="left">A significant positive deviation should be observed. See above SIC figure.</td>
+</tr>
+<tr>
+<td align="left">D-</td>
+<td align="center">False</td>
+<td align="left">No significant negative deviation should be observed.</td>
+</tr>
+</tbody>
+</table>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Dhat vs MIC </font></b></p>
+<p><center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Self_Terminating_Dpval_vs_MICpval_50_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Self_Terminating_Dpval_vs_MICpval_100_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Self_Terminating_Dpval_vs_MICpval_200_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Parallel_Self_Terminating_Dpval_vs_MICpval_1000_Trials.jpg" /> </center></p>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Corresponding SICs </font></b></p>
+<p><center> <img alt="alt text" src="../img/SICdensity/Parallel_Self_Terminating_SIC_50_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Parallel_Self_Terminating_SIC_100_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Parallel_Self_Terminating_SIC_200_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Parallel_Self_Terminating_SIC_1000_Trials.tif" /> </center></p>
+<hr />
+<p><font size=5 color=dodgerblue><b> Serial Exhaustive </font></b>
+<center> <img alt="alt text" src="../img/Architectures_SI_SE.tif" /> </center>
+<footer><font size=2> Figure </footer></font> </p>
+<p><font size=4 color=dodgerblue><b> Theoretical Expectations </font></b></p>
+<table>
+<thead>
+<tr>
+<th align="left">Measure</th>
+<th align="center">Expect Significance</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">MIC (mean)</td>
+<td align="center"></td>
+<td align="left">MIC should be equal to zero</td>
+</tr>
+<tr>
+<td align="left">MIC Interaction</td>
+<td align="center">False</td>
+<td align="left">MIC Interaction should not be significant.</td>
+</tr>
+<tr>
+<td align="left">D+</td>
+<td align="center">True</td>
+<td align="left">A significant positive deviation should be observed. See above SIC figure.</td>
+</tr>
+<tr>
+<td align="left">D-</td>
+<td align="center">True</td>
+<td align="left">A significant negative deviation should be observed.</td>
+</tr>
+</tbody>
+</table>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Dhat vs MIC </font></b></p>
+<p><center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Exhaustive_Dpval_vs_MICpval_50_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Exhaustive_Dpval_vs_MICpval_100_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Exhaustive_Dpval_vs_MICpval_200_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Exhaustive_Dpval_vs_MICpval_1000_Trials.jpg" /> </center></p>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Corresponding SICs </font></b></p>
+<p><center> <img alt="alt text" src="../img/SICdensity/Serial_Exhaustive_SIC_50_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Serial_Exhaustive_SIC_100_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Serial_Exhaustive_SIC_200_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Serial_Exhaustive_SIC_1000_Trials.tif" /> </center></p>
+<hr />
+<p><font size=5 color=dodgerblue><b> Serial Self Terminating </font></b>
+<center> <img alt="alt text" src="../img/Architectures_SI_SST.tif" /> </center>
+<footer><font size=2> Figure </footer></font> </p>
+<p><font size=4 color=dodgerblue><b> Theoretical Expectations </font></b></p>
+<table>
+<thead>
+<tr>
+<th align="left">Measure</th>
+<th align="center">Expect Significance</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">MIC (mean)</td>
+<td align="center"></td>
+<td align="left">MIC should be equal to zero</td>
+</tr>
+<tr>
+<td align="left">MIC Interaction</td>
+<td align="center">False</td>
+<td align="left">MIC Interaction should not be significant.</td>
+</tr>
+<tr>
+<td align="left">D+</td>
+<td align="center">False</td>
+<td align="left">No significant positive deviation should be observed.</td>
+</tr>
+<tr>
+<td align="left">D-</td>
+<td align="center">False</td>
+<td align="left">No significant negative deviation should be observed. See above SIC figure.</td>
+</tr>
+</tbody>
+</table>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Dhat vs MIC </font></b></p>
+<p><center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Self_Terminating_Dpval_vs_MICpval_50_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Self_Terminating_Dpval_vs_MICpval_100_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Self_Terminating_Dpval_vs_MICpval_200_Trials.jpg" /> </center>
+<center> <img alt="alt text" src="../img/IntersectedDensityPlots/Serial_Self_Terminating_Dpval_vs_MICpval_1000_Trials.jpg" /> </center></p>
+<p><font size=4 color=dodgerblue><b> Simulated Observations - Corresponding SICs </font></b></p>
+<p><center> <img alt="alt text" src="../img/SICdensity/Serial_Self_Terminating_SIC_50_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Serial_Self_Terminating_SIC_100_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Serial_Self_Terminating_SIC_200_Trials.tif" /> </center>
+<center> <img alt="alt text" src="../img/SICdensity/Serial_Self_Terminating_SIC_1000_Trials.tif" /> </center></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../AssessingCapacity/" class="btn btn-neutral float-right" title="Assessing Capacity">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../SimulatingArchitectures/" class="btn btn-neutral" title="Simulating Architectures"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../SimulatingArchitectures/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../AssessingCapacity/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>
