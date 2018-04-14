@@ -1,6 +1,6 @@
 site_name: Paul Garrett PhD
 theme: readthedocs
-repo_url: https://github.com/paulgarrettphd/PaulGarrettPhD.git
+repo_url: 'https://github.com/paulgarrettphd/PaulGarrettPhD.git'
 repo_name: 'GitHub'
 docs_dir: markdown_docs
 site_favicon: img/favicon.ico
