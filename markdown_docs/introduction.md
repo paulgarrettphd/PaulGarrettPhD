@@ -1,28 +1,16 @@
-<center> ![alt text](img/sysofcog.png) </center>
+<center> ![alt text](img/IntroHead.jpg) </center>
 
-This document is the property of Paul M. Garrett, a PhD Candidate at the University
-of Newcastle, Australia and is written in partial fulfilment of his Doctorate
-in Philosophy (Psychology).
+# Site Purpose
 
-The document will cover the primary aims of my Thesis.
+This site and the associated GitRepo is the property of Paul M. Garrett, a PhD Candidate at the University of Newcastle, Australia. This document was written to aid other students in the Newcastle Cognition Lab (NewCL) with learning the basic tools used in Systems Factorial Technology (SFT). This document will also address basic accumulator models, such as the Linear Ballistic Accumulator (LBA) model and Random Walk model, and eventually, will extend to understanding multidimensional solutions for complex problems. 
 
-- Systems Factorial Technology
-    - Measures of Cognitive Architecture
-	- Bayesian Measures of Architecture
-    - Measures of Cognitive Workload
-- SFT with Matlab Package
-    - Simulating Data
-	- Fun Functions and more
-- Systems of Numerical Cognition
-    - Systems of Subitizing
-	- Systems of Estimation
-	- Exact Report vs. Comparative Judgements: Differences in Estimation
-- System Error Processing 
-    - Diagnosing Channel Errors in Parallel Systems
-	- Diagnosing Channel Errors in Serial Systems
-- Breaking the Rules
-    - Mixture Models of Architecture and Stopping Rule
-- The Neural Correlates of Cognition aka Why Should We Care?
+This document was started in early 2018, however was placed on hiatus due to the time constraints imposed by publishing, completing a timely PhD, and the simultaneous creation of an SFT package for Matlab. The project has since restarted as of October 14 2019. 
 
-To get in contact with Paul, please email Paul.Garrett@uon.edu.au or
-paulgarrett2016@gmail.com
+# Contacts
+
+To get in contact with Paul please email paulgarrett2016@gmail.com or find him on [twitter](https://twitter.com/PaulMGarrett) @PaulMGarrett.
+To see his latest work, check his [Google Scholar profile](https://scholar.google.com/citations?user=C2VNls8AAAAJ&hl=en) or find him at [Research Gate](https://www.researchgate.net/profile/Paul_Garrett8). 
+
+To contact the Newcastle Cognition Lab, headed by Prof. Scott Brown, reach us through our [website](https://newcastlecl.org/) or through our twitter [@NewcastleCogLab](https://twitter.com/NewcastleCogLab/).
+
+

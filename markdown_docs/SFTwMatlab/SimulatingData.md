@@ -3,6 +3,10 @@
 
 #  Simulating Response Time Data
 
+The following section will discuss several accumulator models that may be used to generate the response-time predictions humans completing a range of tasks. The models we will cover will include the Linear Ballistic Accumulator Model, the Random Walk model, the Poisson Model and the Diffusion Model. Each of these models have unique benefits relative to one-another. Importantly, each model incorporates theoretically driven parameters not only predict human decision times, but help explain the cognitive processes that underpin these behaviours. Understanding how these models work is difficult for new students. The SFT with Matlab package is designed to make this process easier. It provides easy-to-understand functions that let you generate data using these methods, and along the way, appreciate how these models work. 
+
+*Paul up to here 14/10/19, old content continues from here...*
+
 
 ## Linear Balistic Accumulator
 

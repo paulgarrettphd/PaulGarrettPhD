@@ -7,17 +7,15 @@ site_favicon: img/favicon.ico
 
 
 pages:
-  - Introduction: introduction.md
+  - General Introduction: introduction.md
   - Systems Factorial Technology (SFT): SystemsFactorialTechnology.md
   - SFT With Matlab Package: 
       - Simulating Data: SFTwMatlab\SimulatingData.md
       - Simulating Architectures: SFTwMatlab\SimulatingArchitectures.md
       - Assessing Architecture: SFTwMatlab\AssessingArchitecture.md
-      - Assessing Capacity: SFTwMatlab\AssessingCapacity.md
+      - Assessing Capacity: SFTwMatlab\AssessingCapacityTBD.md
   - Systems of Numerical Cognition: systemsofnumericalcognition.md
-  - Assessing System Errors: ErrorsInSFT.md
   - Breaking the Rules: breakingtherules.md
-  - The Neural Correlates of Cognition: neuralcorrelatesofcognition.md
   - Contact and Support: support.md
   - Help: index.md
   - References: References.md

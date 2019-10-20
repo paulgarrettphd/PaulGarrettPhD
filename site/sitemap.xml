@@ -1,112 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>/introduction/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/SystemsFactorialTechnology/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>/SFTwMatlab/SimulatingData/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/SFTwMatlab/SimulatingArchitectures/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/SFTwMatlab/AssessingArchitecture/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/SFTwMatlab/AssessingCapacity/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
     <url>
-     <loc>/systemsofnumericalcognition/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/ErrorsInSFT/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/breakingtherules/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/neuralcorrelatesofcognition/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/support/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-10-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>/References/</loc>
-     <lastmod>2018-06-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/Publications/</loc>
-     <lastmod>2018-06-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
 </urlset>

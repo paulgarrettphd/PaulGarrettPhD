@@ -1,6 +1,9 @@
 <center> ![alt text](img/sysofcog.png) </center>
 
 
+asdsak
+
+
 # Selective Influence
 
 # Mean Interaction Contrast (MIC)

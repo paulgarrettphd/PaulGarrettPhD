@@ -1,9 +1,9 @@
 <center> ![alt text](img/sysofcog.png) </center>
 
-# Systems of Subitizing
+# Exact Report vs. Comparative Judgements
 
 # Systems of Estimation
 
-## Exact Report vs. Comparative Judgements
+# Systems of Subitizing
 
-# Decimal Systems of Cognition
+# Mixture Models and Rule Breaking
